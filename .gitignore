@@ -1,0 +1,25 @@
+# Ignore Visual Studio Code/Visual Studio project system files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignore Python temporary files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore logs, models, large files
+*.log
+*.pt
+*.ckpt
+*.h5
+*.pth
+
+# Ignore images (optional)
+images/
+
+# Jupyter
+.ipynb_checkpoints/
