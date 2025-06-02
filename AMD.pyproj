@@ -4,7 +4,8 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>16c886f8-33d3-4ab0-9b54-0bd528cae99d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>AMD.py</StartupFile>
+    <StartupFile>
+    </StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,13 +22,32 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="AMD.py" />
-    <Compile Include="AMDLabelNew.py" />
-    <Compile Include="Copy.py" />
+    <Compile Include="CNN+BiLSTM.py" />
+    <Compile Include="CNN+BiLSTMGRADCAM.py" />
+    <Compile Include="Continuation10.py" />
+    <Compile Include="Continuation9.py" />
+    <Compile Include="GRADCAM++8.py" />
+    <Compile Include="GRADCAM7.py" />
+    <Compile Include="GRADCAMFOREYEWISE.py" />
+    <Compile Include="GRADCAMFORYEARWISE.py" />
+    <Compile Include="Patientwiseclassificationfullpipeline.py" />
+    <Compile Include="ResNet+LSTMforYear-wiseOCT.py" />
+    <Compile Include="Training3.py" />
+    <Compile Include="Generate PNG Labels.py" />
+    <Compile Include="Copying Folders.py" />
+    <Compile Include="Generate Trajectory Labels.py" />
+    <Compile Include="Flattened Dataset Generator.py" />
+    <Compile Include="PatientEyeDatasetLoader1.py" />
+    <Compile Include="Training4.py" />
+    <Compile Include="Training5.py" />
+    <Compile Include="TrainingPatientwiseclassification6.py" />
+    <Compile Include="Training_Yearwiseclassifier9.py" />
+    <Compile Include="Year-wiseClassificationFullPipeline.py" />
   </ItemGroup>
   <ItemGroup>
     <Content Include=".gitignore" />
-    <Content Include="Dataset.json" />
+    <Content Include="DensePatientClassifier2.py" />
+    <Content Include="Year1_2 Dataset Generator.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
