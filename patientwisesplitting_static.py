@@ -1,4 +1,4 @@
-﻿# 📚 Imports
+﻿# Imports
 import os, json, torch, pandas as pd
 import torch.nn as nn
 import matplotlib.pyplot as plt
@@ -14,7 +14,7 @@ from sklearn.metrics import (accuracy_score, precision_score, recall_score,
                              f1_score, roc_auc_score, confusion_matrix)
 from collections import Counter
 
-# 📦 Dataset
+# Dataset
 class YearWiseOCTDataset(Dataset):
     def __init__(self, json_path, image_root, transform=None):
         self.image_root = image_root
@@ -56,7 +56,7 @@ def collate_fn(batch):
     xs, ys, ids, years = zip(*batch)
     return torch.stack(xs), torch.tensor(ys).float(), list(ids), list(years)
 
-# 🧠 Model
+# Model
 # class SimpleResNetClassifier(nn.Module):
 #     def __init__(self):
 #         super().__init__()
@@ -96,7 +96,7 @@ class SimpleDenseNetClassifier(nn.Module):
         feats = self.flatten(x)
         return self.classifier(feats).squeeze(1)
 
-# 📈 Metrics and Confusion Matrix
+# Metrics and Confusion Matrix
 
 def compute_metrics(y_true, y_pred, y_prob):
     return {
@@ -118,7 +118,7 @@ def plot_conf_matrix(y_true, y_pred, save_path):
     plt.savefig(save_path)
     plt.close()
 
-# 🚀 Cross-Validation Training
+# Cross-Validation Training
 
 def train_cv(json_path, image_root, save_base, max_epochs=30):
     os.makedirs(save_base, exist_ok=True)
@@ -248,6 +248,6 @@ def train_cv(json_path, image_root, save_base, max_epochs=30):
             print(f"{metric.upper()}: {value:.4f}")
     df.to_csv(os.path.join(save_base, "cv_results.csv"), index=False)
 
-# 🚀 Run
+# Run
 save_base = f"Results_Yearwise_CV_{datetime.now().strftime('%Y%m%d_%H%M%S')}"
 train_cv("AMD_Label_New.json", "E:/Labeled_PNGs", save_base)

@@ -15,8 +15,8 @@ from tqdm import tqdm
 json_path = "AMD_Label_New.json"
 input_dir = "E:/Labeled_PNGs"
 output_dir = r"D:\MS Computer Engineering\Thesis\Code\New folder\Year-wise Classification Full Pipeline\No data Leakage"
-patient_name = "BEGNONI, NERINO, LEFT"  # 👈 Update this
-target_year = 6                           # 👈 Update this (as integer)
+patient_name = "BEGNONI, NERINO, LEFT"
+target_year = 6                           
 
 os.makedirs(output_dir, exist_ok=True)
 

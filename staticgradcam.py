@@ -13,11 +13,11 @@ import torch.nn.functional as F
 from tqdm import tqdm
 
 # === CONFIGURATION ===
-json_path = "flattened_all_years.json"  # 👈 Use full path if running standalone
-input_dir = "E:/Labeled_PNGs"           # 👈 Path to your image folder
-output_dir = r"D:\MS Computer Engineering\Thesis\Code\New folder\Patientwiseclassificationfullpipeline\No data leakage\GRADCAM"           # 👈 Where to save Grad-CAM visualizations
-patient_eye = "ACCORDINI, LIDO EMILIO, LEFT"  # 👈 Patient-Eye ID
-model_path = r"D:\MS Computer Engineering\Thesis\Code\AMD\EyeWiseResults_20250531_193203\best_model.pth"  # 👈 Update path
+json_path = "flattened_all_years.json"  
+input_dir = "E:/Labeled_PNGs"           
+output_dir = r"D:\MS Computer Engineering\Thesis\Code\New folder\Patientwiseclassificationfullpipeline\No data leakage\GRADCAM"          
+patient_eye = "ACCORDINI, LIDO EMILIO, LEFT" 
+model_path = r"D:\MS Computer Engineering\Thesis\Code\AMD\EyeWiseResults_20250531_193203\best_model.pth"  
 
 os.makedirs(output_dir, exist_ok=True)
 
