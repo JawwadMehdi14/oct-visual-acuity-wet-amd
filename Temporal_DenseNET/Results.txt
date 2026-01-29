@@ -1,0 +1,124 @@
+
+=== Fold 1/3 ===
+Test  Eyes: 107, Years: 939
+Epoch 1: 100%|██████████| 386/386 [09:31<00:00,  1.48s/it]
+Train → ACC: 0.5337, PREC: 0.2689, REC: 0.4425, F1: 0.3346, AUC: 0.5098
+Val   → ACC: 0.5633, PREC: 0.2455, REC: 0.3034, F1: 0.2714, AUC: 0.5282
+Epoch 2: 100%|██████████| 386/386 [08:04<00:00,  1.26s/it]
+Train → ACC: 0.5337, PREC: 0.2999, REC: 0.5697, F1: 0.3929, AUC: 0.5401
+Val   → ACC: 0.5301, PREC: 0.2624, REC: 0.4157, F1: 0.3217, AUC: 0.5009
+Epoch 3: 100%|██████████| 386/386 [07:54<00:00,  1.23s/it]
+Train → ACC: 0.4728, PREC: 0.2722, REC: 0.5917, F1: 0.3729, AUC: 0.5216
+Val   → ACC: 0.3855, PREC: 0.2614, REC: 0.7079, F1: 0.3818, AUC: 0.4768
+Epoch 4: 100%|██████████| 386/386 [06:59<00:00,  1.09s/it]
+Train → ACC: 0.5453, PREC: 0.2750, REC: 0.4377, F1: 0.3377, AUC: 0.5349
+Val   → ACC: 0.3373, PREC: 0.2718, REC: 0.8764, F1: 0.4149, AUC: 0.5175
+Epoch 5: 100%|██████████| 386/386 [06:53<00:00,  1.07s/it]
+Train → ACC: 0.5104, PREC: 0.2975, REC: 0.6235, F1: 0.4028, AUC: 0.5575
+Val   → ACC: 0.4970, PREC: 0.3050, REC: 0.6854, F1: 0.4221, AUC: 0.5553
+Epoch 6: 100%|██████████| 386/386 [05:22<00:00,  1.20it/s]
+Train → ACC: 0.4994, PREC: 0.3004, REC: 0.6699, F1: 0.4148, AUC: 0.5631
+Val   → ACC: 0.4428, PREC: 0.2624, REC: 0.5955, F1: 0.3643, AUC: 0.5020
+Epoch 7: 100%|██████████| 386/386 [06:04<00:00,  1.06it/s]
+Train → ACC: 0.5266, PREC: 0.2998, REC: 0.5892, F1: 0.3974, AUC: 0.5452
+Val   → ACC: 0.4880, PREC: 0.2902, REC: 0.6292, F1: 0.3972, AUC: 0.5311
+Epoch 8: 100%|██████████| 386/386 [04:36<00:00,  1.39it/s]
+Train → ACC: 0.4605, PREC: 0.2922, REC: 0.7286, F1: 0.4171, AUC: 0.5630
+Val   → ACC: 0.6355, PREC: 0.2419, REC: 0.1685, F1: 0.1987, AUC: 0.5052
+Epoch 9: 100%|██████████| 386/386 [04:34<00:00,  1.41it/s]
+Train → ACC: 0.5382, PREC: 0.2847, REC: 0.4914, F1: 0.3605, AUC: 0.5436
+Val   → ACC: 0.4337, PREC: 0.2780, REC: 0.6966, F1: 0.3974, AUC: 0.5176
+Epoch 10: 100%|██████████| 386/386 [04:32<00:00,  1.42it/s]
+Train → ACC: 0.5026, PREC: 0.3003, REC: 0.6601, F1: 0.4128, AUC: 0.5735
+Val   → ACC: 0.4307, PREC: 0.2475, REC: 0.5506, F1: 0.3415, AUC: 0.4944
+Early stopping at epoch 10
+D:\MS Computer Engineering\Thesis\Code\AMD\502.py:220: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  model.load_state_dict(torch.load(os.path.join(save_dir, "best_model.pth")))
+
+Test → ACC: 0.4611, PREC: 0.2862, REC: 0.6136, F1: 0.3904, AUC: 0.5147
+
+=== Fold 2/3 ===
+Test  Eyes: 107, Years: 938
+Epoch 1: 100%|██████████| 387/387 [05:25<00:00,  1.19it/s]
+Train → ACC: 0.5375, PREC: 0.2894, REC: 0.4880, F1: 0.3633, AUC: 0.5246
+Val   → ACC: 0.5650, PREC: 0.3139, REC: 0.4624, F1: 0.3739, AUC: 0.5497
+Epoch 2: 100%|██████████| 387/387 [04:37<00:00,  1.39it/s]
+Train → ACC: 0.4580, PREC: 0.2581, REC: 0.5359, F1: 0.3484, AUC: 0.4940
+Val   → ACC: 0.6405, PREC: 0.2903, REC: 0.1935, F1: 0.2323, AUC: 0.5259
+Epoch 3: 100%|██████████| 387/387 [04:35<00:00,  1.41it/s]
+Train → ACC: 0.5084, PREC: 0.2702, REC: 0.4809, F1: 0.3460, AUC: 0.5014
+Val   → ACC: 0.3867, PREC: 0.2948, REC: 0.8495, F1: 0.4377, AUC: 0.5608
+Epoch 4: 100%|██████████| 387/387 [04:36<00:00,  1.40it/s]
+Train → ACC: 0.4806, PREC: 0.2689, REC: 0.5359, F1: 0.3581, AUC: 0.4968
+Val   → ACC: 0.6647, PREC: 0.2857, REC: 0.1290, F1: 0.1778, AUC: 0.5401
+Epoch 5: 100%|██████████| 387/387 [04:34<00:00,  1.41it/s]
+Train → ACC: 0.4547, PREC: 0.2784, REC: 0.6388, F1: 0.3878, AUC: 0.5070
+Val   → ACC: 0.5408, PREC: 0.3254, REC: 0.5914, F1: 0.4198, AUC: 0.5595
+Epoch 6: 100%|██████████| 387/387 [04:36<00:00,  1.40it/s]
+Train → ACC: 0.5408, PREC: 0.2781, REC: 0.4378, F1: 0.3401, AUC: 0.5212
+Val   → ACC: 0.3384, PREC: 0.2734, REC: 0.8172, F1: 0.4097, AUC: 0.4769
+Epoch 7: 100%|██████████| 387/387 [04:36<00:00,  1.40it/s]
+Train → ACC: 0.4799, PREC: 0.2751, REC: 0.5646, F1: 0.3699, AUC: 0.5056
+Val   → ACC: 0.4894, PREC: 0.3000, REC: 0.6129, F1: 0.4028, AUC: 0.5433
+Epoch 8: 100%|██████████| 387/387 [04:35<00:00,  1.40it/s]
+Train → ACC: 0.5168, PREC: 0.2660, REC: 0.4474, F1: 0.3336, AUC: 0.4988D:\MS Computer Engineering\Thesis\Code\AMD\502.py:220: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  model.load_state_dict(torch.load(os.path.join(save_dir, "best_model.pth")))
+
+Val   → ACC: 0.5347, PREC: 0.2479, REC: 0.3226, F1: 0.2804, AUC: 0.4891
+Early stopping at epoch 8
+
+Test → ACC: 0.3945, PREC: 0.2719, REC: 0.7530, F1: 0.3996, AUC: 0.5240
+
+=== Fold 3/3 ===
+Test  Eyes: 107, Years: 938
+Epoch 1: 100%|██████████| 386/386 [05:24<00:00,  1.19it/s]
+Train → ACC: 0.5142, PREC: 0.2779, REC: 0.4606, F1: 0.3467, AUC: 0.4847
+Val   → ACC: 0.2492, PREC: 0.2492, REC: 1.0000, F1: 0.3990, AUC: 0.4732
+Epoch 2: 100%|██████████| 386/386 [04:54<00:00,  1.31it/s]
+Train → ACC: 0.4877, PREC: 0.2861, REC: 0.5556, F1: 0.3777, AUC: 0.5051
+Val   → ACC: 0.6366, PREC: 0.2286, REC: 0.1928, F1: 0.2092, AUC: 0.5115
+Epoch 3: 100%|██████████| 386/386 [08:12<00:00,  1.28s/it]
+Train → ACC: 0.5097, PREC: 0.2807, REC: 0.4815, F1: 0.3546, AUC: 0.4984
+Val   → ACC: 0.2703, PREC: 0.2531, REC: 0.9880, F1: 0.4029, AUC: 0.4712
+Epoch 4: 100%|██████████| 386/386 [07:24<00:00,  1.15s/it]
+Train → ACC: 0.5058, PREC: 0.2760, REC: 0.4722, F1: 0.3484, AUC: 0.4972
+Val   → ACC: 0.4685, PREC: 0.2762, REC: 0.6988, F1: 0.3959, AUC: 0.5596
+Epoch 5: 100%|██████████| 386/386 [06:15<00:00,  1.03it/s]
+Train → ACC: 0.4631, PREC: 0.2678, REC: 0.5301, F1: 0.3559, AUC: 0.4952
+Val   → ACC: 0.4925, PREC: 0.2557, REC: 0.5422, F1: 0.3475, AUC: 0.5377
+Epoch 6: 100%|██████████| 386/386 [06:31<00:00,  1.01s/it]
+Train → ACC: 0.5078, PREC: 0.2747, REC: 0.4630, F1: 0.3448, AUC: 0.4971
+Val   → ACC: 0.5556, PREC: 0.2400, REC: 0.3614, F1: 0.2885, AUC: 0.5015
+Epoch 7: 100%|██████████| 386/386 [05:32<00:00,  1.16it/s]
+Train → ACC: 0.5084, PREC: 0.2912, REC: 0.5278, F1: 0.3753, AUC: 0.5200
+Val   → ACC: 0.4625, PREC: 0.2241, REC: 0.4699, F1: 0.3035, AUC: 0.4619
+Epoch 8: 100%|██████████| 386/386 [05:39<00:00,  1.14it/s]
+Train → ACC: 0.4968, PREC: 0.2797, REC: 0.5069, F1: 0.3605, AUC: 0.4947D:\MS Computer Engineering\Thesis\Code\AMD\502.py:220: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  model.load_state_dict(torch.load(os.path.join(save_dir, "best_model.pth")))
+
+Val   → ACC: 0.4204, PREC: 0.2454, REC: 0.6386, F1: 0.3545, AUC: 0.5174
+Early stopping at epoch 8
+
+Test → ACC: 0.2697, PREC: 0.2640, REC: 0.9919, F1: 0.4170, AUC: 0.4558
+
+=== Cross-Validation Summary ===
+Mean Metrics Across Folds:
+TRAIN METRICS
+TRAIN_ACC: 0.5054
+TRAIN_PREC: 0.2820
+TRAIN_REC: 0.5382
+TRAIN_F1: 0.3690
+TRAIN_AUC: 0.5223
+VAL METRICS
+VAL_ACC: 0.4620
+VAL_PREC: 0.2469
+VAL_REC: 0.5039
+VAL_F1: 0.3255
+VAL_AUC: 0.5003
+TEST METRICS
+TEST_ACC: 0.3751
+TEST_PREC: 0.2741
+TEST_REC: 0.7862
+TEST_F1: 0.4023
+TEST_AUC: 0.4982
+Press any key to continue . . .

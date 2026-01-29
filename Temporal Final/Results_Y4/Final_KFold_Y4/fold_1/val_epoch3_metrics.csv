@@ -1,0 +1,2 @@
+precision,recall,f1_score,accuracy,auc,tn,fp,fn,tp
+0.0,0.0,0.0,0.32142857142857145,0.36257309941520466,0,19,0,9

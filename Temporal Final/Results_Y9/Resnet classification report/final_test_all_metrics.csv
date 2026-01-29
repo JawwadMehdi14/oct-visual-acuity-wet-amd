@@ -1,0 +1,2 @@
+Not Improved_precision,Not Improved_recall,Not Improved_f1-score,Not Improved_support,Improved_precision,Improved_recall,Improved_f1-score,Improved_support,accuracy,macro avg_precision,macro avg_recall,macro avg_f1-score,macro avg_support,weighted avg_precision,weighted avg_recall,weighted avg_f1-score,weighted avg_support,AUC,Confusion_TN,Confusion_FP,Confusion_FN,Confusion_TP
+0.9230769230769231,1.0,0.96,36.0,0.0,0.0,0.0,3.0,0.9230769230769231,0.46153846153846156,0.5,0.48,39.0,0.8520710059171598,0.9230769230769231,0.8861538461538462,39.0,0.21296296296296297,36,0,3,0

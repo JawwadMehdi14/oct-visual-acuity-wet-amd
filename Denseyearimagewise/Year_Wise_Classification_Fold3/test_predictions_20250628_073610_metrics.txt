@@ -1,0 +1,6 @@
+=== TEST METRICS ===
+Accuracy:  0.8301
+Precision: 0.7713
+Recall:    0.8850
+F1 Score:  0.8242
+AUC:       0.9209

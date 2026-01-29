@@ -4,8 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>16c886f8-33d3-4ab0-9b54-0bd528cae99d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>
-    </StartupFile>
+    <StartupFile>105.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,32 +21,46 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="CNN+BiLSTM.py" />
-    <Compile Include="CNN+BiLSTMGRADCAM.py" />
-    <Compile Include="Continuation10.py" />
-    <Compile Include="Continuation9.py" />
-    <Compile Include="GRADCAM++8.py" />
-    <Compile Include="GRADCAM7.py" />
-    <Compile Include="GRADCAMFOREYEWISE.py" />
-    <Compile Include="GRADCAMFORYEARWISE.py" />
-    <Compile Include="Patientwiseclassificationfullpipeline.py" />
-    <Compile Include="ResNet+LSTMforYear-wiseOCT.py" />
-    <Compile Include="Training3.py" />
-    <Compile Include="Generate PNG Labels.py" />
-    <Compile Include="Copying Folders.py" />
-    <Compile Include="Generate Trajectory Labels.py" />
-    <Compile Include="Flattened Dataset Generator.py" />
-    <Compile Include="PatientEyeDatasetLoader1.py" />
-    <Compile Include="Training4.py" />
-    <Compile Include="Training5.py" />
-    <Compile Include="TrainingPatientwiseclassification6.py" />
-    <Compile Include="Training_Yearwiseclassifier9.py" />
-    <Compile Include="Year-wiseClassificationFullPipeline.py" />
+    <Compile Include="103.py" />
+    <Compile Include="104.py" />
+    <Compile Include="105.py" />
+    <Compile Include="205.py" />
+    <Compile Include="304.py" />
+    <Compile Include="409.py" />
+    <Compile Include="408.py" />
+    <Compile Include="204.py" />
+    <Compile Include="203.py" />
+    <Compile Include="201.py" />
+    <Compile Include="202.py" />
+    <Compile Include="102.py" />
+    <Compile Include="412.py" />
+    <Compile Include="403.py" />
+    <Compile Include="301.py" />
+    <Compile Include="410.py" />
+    <Compile Include="302.py" />
+    <Compile Include="303.py" />
+    <Compile Include="401.py" />
+    <Compile Include="404.py" />
+    <Compile Include="405.py" />
+    <Compile Include="406.py" />
+    <Compile Include="407.py" />
+    <Compile Include="101.py" />
+    <Compile Include="501.py" />
+    <Compile Include="502.py" />
+    <Compile Include="503.py" />
+    <Compile Include="504.py" />
+    <Compile Include="601.py" />
+    <Compile Include="602.py" />
+    <Compile Include="603.py" />
+    <Compile Include="604.py" />
+    <Compile Include="605.py" />
+    <Compile Include="701.py" />
   </ItemGroup>
   <ItemGroup>
     <Content Include=".gitignore" />
-    <Content Include="DensePatientClassifier2.py" />
-    <Content Include="Year1_2 Dataset Generator.py" />
+    <Content Include="402.py" />
+    <Content Include="Names.txt" />
+    <Content Include="411.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
