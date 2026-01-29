@@ -50,6 +50,9 @@
     <Content Include="kfold_results_2\fold_4\metrics.csv" />
     <Content Include="kfold_results_2\fold_5\confusion_matrix.png" />
     <Content Include="kfold_results_2\fold_5\metrics.csv" />
+    <Content Include="Numerical Data\Tabella AMD real-life.xlsx" />
+    <Content Include="Reports\Summary Presentation.pdf" />
+    <Content Include="Reports\Thesis Report.pdf" />
     <Content Include="Results\Explainability\Static\Examples1\TN_1.png" />
     <Content Include="Results\Explainability\Static\Examples1\TN_2.png" />
     <Content Include="Results\Explainability\Static\Examples1\TN_3.png" />
@@ -5911,6 +5914,8 @@
     <Folder Include="kfold_results_2\fold_3\" />
     <Folder Include="kfold_results_2\fold_4\" />
     <Folder Include="kfold_results_2\fold_5\" />
+    <Folder Include="Numerical Data\" />
+    <Folder Include="Reports\" />
     <Folder Include="Results\" />
     <Folder Include="Results\Explainability\" />
     <Folder Include="Results\Explainability\Static\" />
