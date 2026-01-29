@@ -50,11 +50,10 @@
     <Compile Include="503.py" />
     <Compile Include="504.py" />
     <Compile Include="601.py" />
-    <Compile Include="602.py" />
+    <Compile Include="Temporal_FullHistory.py" />
     <Compile Include="603.py" />
     <Compile Include="604.py" />
     <Compile Include="605.py" />
-    <Compile Include="701.py" />
   </ItemGroup>
   <ItemGroup>
     <Content Include=".gitignore" />
